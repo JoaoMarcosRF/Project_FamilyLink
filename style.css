@@ -1,0 +1,16 @@
+body{
+    background-color: #E98AF5;
+}
+
+#Central{
+
+    display: flex;
+    justify-content:center;
+    
+
+
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+
+}
