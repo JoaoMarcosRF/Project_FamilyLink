@@ -58,44 +58,101 @@ header #logoCabecalho p{
 
 #introducao{
     display: flex;
-    justify-content: flex-start;
-    text-align: justify;
+    align-items: center;
+    justify-content: space-around;
     padding-top: 55px;
     color: white;
     background-color: #0118D8;
-
+    padding: 20px;
 }
-
+#introducao > div {
+    display: flex;
+    flex-direction: column; 
+    flex-grow: 1; 
+    text-align: left;
+}
 #introducao img{
     display: flex;
     justify-content: flex-end;
     padding-right: 175px;
     margin: 30px;   
     width: 500px;
-    height: 500px; 
+    height: 500px;
+    
 }
 
-#introducao h1{
-    display: inline;
-    border: black 10px;
+#introducao h2{
+    margin-bottom: 10px;
+    white-space: pre-line; 
 }
 
+#introducao p{
+    margin-top: 15px;
+    text-align: left;
+}
 
 .problemas{
     color: black;
     background-color: white;
+    padding: 20px;
 }
 
+.problemas .titulos{
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: bolder
+}
+
+.problemas ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.problemas ul li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 30px;
+    width: 200px;
+}
 .problemas ul img{
 
     width: 200px;
     height: 200px;
-    
-    display: flex;
-    justify-content: center;
-
-
+    margin-bottom: 5px;
+    display: block;
 }
+
+.problemas ul li span{
+    font-size: 1em;
+    display: block;
+    width: 100%;
+}
+
+.problemas ul li details {
+    margin-top: 10px;
+    font-size: 14px;
+    padding: 10px;
+    width: 100%;
+    text-align: left;
+}
+.problemas ul li summary {
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+    list-style: none;
+}
+
+.problemas ul li summary::-webkit-details-marker {
+    display: none;
+}
+
+
 
 .estrategias{
 
