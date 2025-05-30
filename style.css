@@ -40,13 +40,20 @@ header #logoCabecalho p{
     justify-content: flex-end;
     margin-right: 40px;
     padding-top: 18px;
+    
 }
 
 #elementosHome li{
     float: left;
     margin-right: 60px;
     color: white;
+    
 }
+#elementosHome a {
+    text-decoration: none;
+    color: white;
+}
+
 /*
 .titulos{
     display: flex;
@@ -352,12 +359,6 @@ header #logoCabecalho p{
 
 #dicas #botaoDicas input:hover {
     background-color: #333;
-}
-footer{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
 }
 
 
